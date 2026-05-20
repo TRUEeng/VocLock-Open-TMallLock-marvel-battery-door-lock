@@ -1,0 +1,99 @@
+# ============================================================
+#  .gitignore — VocLock (ArseneSteinerGate)
+#  根目录级别
+# ============================================================
+
+
+# ── Gradle 构建缓存 & 输出 ───────────────────────────────────
+.gradle/
+/build/
+**/build/
+
+# Gradle Wrapper 二进制（properties 保留，用于版本同步）
+gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+
+# ── Android Studio / IntelliJ IDEA ──────────────────────────
+*.iml
+.idea/
+# 以下几个文件可按团队需要选择性保留：
+# .idea/codeStyles/          —— 代码格式化风格（建议保留）
+# .idea/inspectionProfiles/  —— 检查配置（建议保留）
+
+
+# ── 本地敏感配置（绝对不能提交） ────────────────────────────
+local.properties
+keystore.properties
+
+# 签名密钥文件
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+
+# ── 生成产物 ─────────────────────────────────────────────────
+*.apk
+*.aab
+*.ap_
+*.dex
+mapping.txt
+seeds.txt
+usage.txt
+
+
+# ── NDK / CMake ──────────────────────────────────────────────
+.externalNativeBuild/
+.cxx/
+obj/
+
+
+# ── 捕获 & 分析报告 ──────────────────────────────────────────
+/captures/
+
+
+# ── 操作系统杂项 ─────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+
+# ── 日志 & 临时文件 ──────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+
+# ── Kotlin/JVM ───────────────────────────────────────────────
+.kotlin/
+*.class
+
+
+# ── 测试覆盖率报告 ───────────────────────────────────────────
+*.exec
+*.ec
+jacoco/
+
+
+# ── 其他编辑器 ───────────────────────────────────────────────
+.vscode/
+.fleet/
+*.sublime-project
+*.sublime-workspace
