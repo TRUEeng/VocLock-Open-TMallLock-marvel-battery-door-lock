@@ -7,4 +7,4 @@ Also Its a AI project used by Sonnet4.6,\n
 If you fonud any question please commit it Im just a new guy.
 
 
-Fine the ANDRIOD ver has a serious problem.
+Fine the ANDROID ver has a serious problem.
